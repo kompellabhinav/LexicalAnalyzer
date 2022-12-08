@@ -1,0 +1,23 @@
+BEGN
+
+{
+    id = 10 + 20 * 3
+    iffy ( id > 100 {
+        id = 20
+    }
+
+    orelse {
+        id = 10
+    }
+
+    loops ( x < 10 ) {
+    {
+
+        id = 10 / 5;
+        if ( id < 2 ) {
+            id = 5
+        }
+    }
+}
+
+FINISH

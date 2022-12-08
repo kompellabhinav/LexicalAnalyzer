@@ -1,0 +1,21 @@
+BEGIN
+
+{
+    id = 10 + 20 * 3
+    iff ( id > 100) {
+        id = 20
+    }
+
+    or else
+        id = 10
+    }
+
+    {
+        id = 10 / 5;
+        if ( id < 2 ) {
+            id = 5
+        }
+    }
+}
+
+FINISH
